@@ -51,7 +51,6 @@ while(1){
 
    //if break is entered, kill server 
  if(buffer[0]=='b'&&buffer[1]=='r'&&buffer[2]=='e'&&buffer[3]=='a'&&buffer[4]=='k') break;
- printf("\n%c\n",buffer[0]);
 
    //client choice is from the buffer
  char clientChoice=buffer[0];
